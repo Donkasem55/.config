@@ -1,0 +1,187 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+	"logo": {
+		"type": "file",
+		"source": "~/.config/fastfetch/logo.txt",
+		"color": {
+			"1": "black"
+		}
+	},
+	"modules": [
+		{
+			"type": "custom",
+			"format": "╒════════════════════════ Session ═════════════════════════╕",
+			"outputColor": "blue"
+		},
+
+		{
+			"type": "title",
+			"key": "   User Account",
+			"format": "{user-name}",
+			"keyColor": "blue"
+		},
+
+		{
+			"type": "title",
+			"key": "  󰟀 Hostname",
+			"format": "{host-name}",
+			"keyColor": "blue"
+		},
+
+		{
+			"type": "wm",
+			"key": "   Window Manager",
+			"keyColor": "blue"
+		},
+
+		{
+			"type": "custom",
+			"format": "╘══════════════════════════════════════════════════════════╛",
+			"outputColor": "blue"
+		},
+
+		{
+			"type": "custom",
+			"format": "╒════════════════════════ System ══════════════════════════╕",
+			"outputColor": "magenta"
+		},
+
+		{
+			"type": "os",
+			"key": "   OS",
+			"format": "{pretty-name} ({arch})",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "locale",
+			"key": "  󰘝 Locale",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "uptime",
+			"key": "  󰥔 Uptime",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "custom",
+			"format": "╘══════════════════════════════════════════════════════════╛",
+			"outputColor": "magenta"
+		},
+
+		{
+			"type": "custom",
+			"format": "╒════════════════════════ Hardware ════════════════════════╕",
+			"outputColor": "white"
+		},
+
+		{
+			"type": "cpu",
+			"key": "  󰻠 Processor",
+			"format": "{name}",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "cpu",
+			"key": "  ├ Clock speed",
+			"format": "{freq-max}",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "cpu",
+			"key": "  └ Cores",
+			"format": "{cores-physical} Cores ({cores-logical} Threads)",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "gpu",
+			"key": "  󰟀 Graphics",
+			"format": "{name} @ {frequency} [{type}]",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "memory",
+			"key": "  󰍛 Memory",
+			"format": "{used} / {total} ({percentage})",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "disk",
+			"key": "  󰋊 Disk ({mountpoint})",
+			"format": "{size-used} / {size-total} ({size-percentage}) [{filesystem}]",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "battery",
+			"key": "  󱊣 Battery",
+			"format": "{capacity} ({status})",
+			"keyColor": "white"
+		},
+
+		{
+			"type": "custom",
+			"format": "╘══════════════════════════════════════════════════════════╛",
+			"outputColor": "white"
+		},
+
+		{
+			"type": "custom",
+			"format": "╒════════════════════════ Software ════════════════════════╕",
+			"outputColor": "magenta"
+		},
+
+		{
+			"type": "terminal",
+			"key": "   Terminal",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "terminalfont",
+			"key": "  󰘝 Terminal Font",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "shell",
+			"key": "   Shell",
+			"keyColor": "magenta"
+		},
+
+		{
+			"type": "custom",
+			"format": "╘══════════════════════════════════════════════════════════╛",
+			"outputColor": "magenta"
+		},
+
+		{
+			"type": "custom",
+			"format": "╒═════════════════════════ Colour ═════════════════════════╕",
+			"outputColor": "blue"
+		},
+	
+		{
+			"type": "custom",
+			"format": "          {#30}███{#31}███{#32}███{#33}███{#34}███{#35}███{#36}███{#37}███ {#36}███{#35}███{#38;2;255;255;255}███{#35}███{#36}███"
+		},
+	
+		{
+			"type": "custom",
+			"format": "          {#90}███{#91}███{#92}███{#93}███{#94}███{#95}███{#96}███{#97}███ {#36}███{#35}███{#38;2;255;255;255}███{#35}███{#36}███"
+		},
+
+		{
+			"type": "custom",
+			"format": "╘══════════════════════════════════════════════════════════╛",
+			"outputColor": "blue"
+		}
+	]
+}

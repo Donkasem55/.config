@@ -1,0 +1,83 @@
+
+window.pavucontrol, .background {
+	color: #FFFFFF;
+	background-color: #221c33;
+}
+
+window.pavucontrol label {
+	color: #FFFFFF
+}
+
+window.pavucontrol:backdrop {
+	color: #FFFFFF
+}
+
+notebook tab {
+	color: #FFFFFF;
+	background-color: #352c4d;
+	border-color: transparent;
+}
+
+notebook header {
+	color: #FFFFFF;
+	background-color: #221c33;
+}
+
+notebook tabs tab:checked {
+	color: #FFFFFF;
+	background-color: #221c33;
+}
+
+.nautilus-window {
+	background-color: #dfc7ff;
+	color: #FFFFFF;
+}
+
+.nautilus-window placessidebar {
+	background-color: #c4ace3;
+	color: #ffffff;
+}
+
+.nautilus-window toolbarview > revealer {
+	background-color: #a38cc2;
+	color: #FFFFFF
+}
+
+.nautilus-window.nautilus-canvas-item {
+	color: #ffffff;
+}
+
+.nautilus-sidebar {
+	background-color: #221c33;
+	color: #FFF;
+}
+
+combobox {
+	color: #FFFFFF;
+	background-color: #352c4d;
+}
+
+combobox button.combo {
+	color: #FFFFFF;
+	background-color: #352c4d;
+}
+
+combobox box.linked.button.combo {
+	color: #FFFFFF;
+	background-color: #352c4d;
+}
+
+combobox arrow{
+	color: #FFFFFF;
+	background-color: #352c4d;
+}
+
+window.pavucontrol popover.background contents {
+	color: #FFFFFF;
+	background-color: #352c4d;
+}
+
+button image {
+	color: #FFFFFF;
+}
+

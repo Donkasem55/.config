@@ -1,0 +1,21 @@
+[font]
+size = 10.0
+
+[font.normal]
+family = "JetBrains Mono Nerds"
+style = "Regular"
+
+[general]
+import = [
+	"~/.config/alacritty/theme/catppuccin-cuber_patch.toml"
+]
+
+[colors.primary]
+background = "#642e85"
+
+[colors.normal]
+black = "#190a26"
+
+[window]
+padding = { x = 7, y = 6 }
+
